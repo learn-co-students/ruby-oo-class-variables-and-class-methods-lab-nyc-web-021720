@@ -59,3 +59,8 @@ class Song
     genre_count
     end
 end     
+song1 = Song.new("Float","Eden","Alt")
+song2 = Song.new("XO","Eden","Alt")
+song3 = Song.new("Hertz","Eden","Pop")
+song4 = Song.new("Circles","Eden","Alt")
+puts Song.genre_count
